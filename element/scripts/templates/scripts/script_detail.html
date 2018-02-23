@@ -7,7 +7,7 @@
         {{script.name}}
       </h2>
       <div class="row">
-        <div class="col-md-5 col-md-offset-1">
+        <div class="col-md-5">
           <table class="table table-striped table-bordered table-dark">
             <thead>
               <tr>
@@ -23,6 +23,10 @@
               <tr>
                 <th scope="row">Sentences</th>
                 <td>{{script.sentence_count}}</td>
+              </tr>
+              <tr>
+                <th scope="row">Words</th>
+                <td>{{script.word_count}}</td>
               </tr>
               <tr>
                 <th scope="row">Scanned</th>
@@ -41,6 +45,38 @@
             </li>
           </ul>
         </div>
+        <div class="col-md-12 ">
+          <div class="row common-words">
+            <div class="col-md-12 common-words-header">
+              <div class="">
+                <span>Common Words</span>
+                <span>{{script.common_words|length}}</span>
+              </div>
+            </div>
+            <div class="col-md-6 common-words-wrap">
+              {% for word in script.common_words %}
+              <a href="#commonword{{forloop.counter}}" data-toggle="tab">
+                <span class="common-word">
+                  <span>{{word.0}}</span><span>{{word.1}}</span>
+                </span>
+              </a>
+              {% endfor %}
+            </div>
+            <div class="col-md-6 common-word-details">
+              <div>
+                <ul class="tab-content no-style">
+                {% for word in script.common_words %}
+                <li id="commonword{{forloop.counter}}" class="tab-pane fade{% if forloop.first %} active in {% endif %}">
+                  <span class="">
+                    <span>{{word.0}}</span><span>{{word.1}}</span>
+                  </span>
+                </li>
+                {% endfor %}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -52,25 +88,15 @@
           <div class="row">
             <div class="aline col-md-12">
               <div class="row">
-                <div class="">
+                <div class="line-header">
                   <span class='line-id' data-lid='{{line.linenum}}'>
                     {{line.linenum}}
                   </span>
-                  <div class="dropdown">
-                    <button class="btn dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
-                      <span class="glyphicon glyphicon-tag"></span>
-                    </button>
-                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                      {% for tag in tag_list %}
-                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">{{tag.name}}</a></li>
-                      {% endfor %}
-                    </ul>
-                  </div>
                   <ul class="line-data inline-no-style">
                     <li><span title="s_count">{{line.sentences.all.count}}</span></li>
                   </ul>
                 </div>
-                <div class="">
+                <div class="line-tags">
                   <div class="row">
                     <div class="col-md-6">
                       <ul class="tags-list inline-no-style">
@@ -90,30 +116,56 @@
                         </li>
                         {% endfor %}
                         {% for tag in tag_list %}
-                          {% if tag not in line.tags.all %}
-                          <li class="tag">
-                            <div class="dropdown">
-                              <button class="btn dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                <span class='tag-name' data-tid='{{tag.id}}'>{{tag.name}}</span>
-                                <span class="caret"></span>
-                              </button>
-                              <ul class="tag-actions dropdown-menu">
-                                <li>
-                                  <a data-action="add">Add</a>
-                                </li>
-                              </ul>
-                            </div>
-                          </li>
-                          {% endif %}
+                        {% if tag not in line.tags.all %}
+                        <li class="tag">
+                          <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                              <span class='tag-name' data-tid='{{tag.id}}'>{{tag.name}}</span>
+                              <span class="caret"></span>
+                            </button>
+                            <ul class="tag-actions dropdown-menu">
+                              <li>
+                                <a data-action="add">Add</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+                        {% endif %}
                         {% endfor %}
                       </ul>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <ul class="asentences">
+                <div class="col-md-6 sentence-wholes">
+                  <ul class="sentences">
                     {% for sentence in line.sentences.all %}
-                    <li>
+                    <li class="{% if forloop.first %}
+                                  infocus
+                               {% endif %}">
+                      <a data-toggle="tab"
+                      aria-expanded="{% if forloop.first %}true{% endif %}"
+                      href="#line{{line.linenum}}sentence{{sentence.sentnum}}">
+                        <div class="">
+                          <p title="{{line.id}},{{sentence.id}}">{{sentence.text}}</p>
+                        </div>
+                        <ul class="sentence-data inline-no-style">
+                          <li><span title="s_count">{{line.s_count}}</span></li>
+                          <li><span title="t_avg">{{line.t_avg|floatformat}}</span></li>
+                          <li><span title="t_count">{{sentence.t_count}}</span></li>
+                          <li><span title="c_avg">{{sentence.c_avg|floatformat}}</span></li>
+                        </ul>
+                      </a>
+                    </li>
+                    {% endfor %}
+                  </ul>
+                </div>
+                <div class="col-md-6 sentence-words">
+                  <ul class="asentences tab-content" >
+                    {% for sentence in line.sentences.all %}
+                    <li class="tab-pane fade {% if forloop.first %}
+                                              in active
+                                             {% endif %}"
+                      id="line{{line.linenum}}sentence{{sentence.sentnum}}">
                       <div class="">
                         <p>{% for token in sentence.tokens %}<span data-toggle="tooltip" title="{{token.tag}}" wordid="{{line.id}},{{sentence.id}},{{token.id}}">{{token.text}}</span> {% endfor %}</p>
                       </div>
@@ -121,24 +173,6 @@
                     {% endfor %}
                   </ul>
                 </div>
-                <div class="col-md-6">
-                  <ul class="sentences">
-                    {% for sentence in line.sentences.all %}
-                    <li>
-                      <div class="">
-                        <p title="{{line.id}},{{sentence.id}}">{{sentence.text}}</p>
-                      </div>
-                      <ul class="sentence-data inline-no-style">
-                        <li><span title="s_count">{{line.s_count}}</span></li>
-                        <li><span title="t_avg">{{line.t_avg|floatformat}}</span></li>
-                        <li><span title="t_count">{{sentence.t_count}}</span></li>
-                        <li><span title="c_avg">{{sentence.c_avg|floatformat}}</span></li>
-                      </ul>
-                    </li>
-                    {% endfor %}
-                  </ul>
-                </div>
-
               </div>
             </div>
           </div>

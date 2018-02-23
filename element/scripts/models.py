@@ -2,8 +2,8 @@ from django.db import models
 from bs4 import BeautifulSoup
 from pprint import pprint
 import nltk
-from nltk.tokenize import word_tokenize
-from nltk.tokenize import sent_tokenize
+from nltk.tokenize import word_tokenize, sent_tokenize
+from nltk.corpus import stopwords
 # Create your models here.
 class Otype(models.Model):
     name = models.CharField(max_length=100)
@@ -27,6 +27,7 @@ class Sentence(models.Model):
             token['text'] = word[0]
             token['tag'] = word[1]
             token['id'] = wid
+            token['sid'] = self.id
             tokens.append(token)
         return tokens
     def __str__(self):
@@ -72,6 +73,7 @@ class Script(models.Model):
             print(line)
         return f.readline()
     def analysis(self):
+        print('analysis')
         analysis = {'sentence_count':0}
         f = open( ''+self.scriptfile.path)
         self.scriptfile.seek(0)
@@ -93,21 +95,55 @@ class Script(models.Model):
                 sentence['words'] = word_tokenize(sent)
                 sentence['t_count'] = len(sentence['words'])
                 line['t_count'] += sentence['t_count']
-                sentence['c_count'] = 0
-                sentence['tokens'] = []
-                for idw,wrd in enumerate(nltk.pos_tag(sentence['words'])):
-                    token = {}
-                    token['text'] = wrd[0]
-                    token['tag'] = wrd[1]
-                    sentence['c_count'] += len(token['text'])
-                    sentence['tokens'].append(token)
-                sentence['c_avg'] = sentence['c_count']/sentence['t_count']
                 line['sentences'].append(sentence)
                 analysis['sentence_count'] += 1
             line['t_avg'] = line['t_count']/line['s_count']
             lines.append(line)
         analysis['lines'] = lines
         return analysis
+    def all_tokens(self):
+        tokens = []
+        stopwords = set(nltk.corpus.stopwords.words('english'))
+        for line in self.lines.all():
+            for sentence in line.sentences.all():
+                for token in sentence.tokens():
+                    if len(token['text'])>1:
+                        if token['text'] not in stopwords:
+                            tokens.append(token)
+        return tokens
+    def all_words(self):
+        words = []
+        stopwords = set(nltk.corpus.stopwords.words('english'))
+        for token in self.all_tokens():
+            if len(token['text'])>1:
+                if token['text'] not in stopwords:
+                    words.append(token['text'].lower())
+        return words
+    def word_count(self):
+        return len(self.all_words())
+    def common_words(self):
+        all_words = self.all_words()
+        fdist = nltk.FreqDist(all_words)
+        common_words = fdist.most_common(100)
+        return common_words
+    def common_words_sentences(self):
+        all_words = self.all_words()
+        common_words = self.common_words()
+        words = []
+        for wid,word in enumerate(common_words):
+            word = {
+                'wid':wid, 'text':word[0],
+                'w_freq':word[1],'total_words':len(all_words),
+                'sentences':[],
+                }
+            print(word)
+            for token in self.all_tokens():
+                if word['text'] == token['text'].lower():
+                    sentence = Sentence.objects.get(pk=token['sid'])
+                    word['sentences'].append(sentence)
+                    print(sentence.text)
+            words.append(word)
+        return words
     def line_count(self):
         return self.lines.count()
     def sentence_count(self):
@@ -124,6 +160,7 @@ class Script(models.Model):
                     new_line.save()
                     script_line = Script_Line(script=self,line=new_line)
                     script_line.save()
+                    print(script_line)
             if self.lines.count() == len(analysis['lines']):
                 self.scanned = True
             self.save()

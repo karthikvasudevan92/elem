@@ -14,10 +14,13 @@
   {% load static %}
   <link rel="stylesheet" type="text/css" href="{% static 'scripts/style.css' %}" />
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <script type="text/javascript" src="{% static 'scripts/analysis.js' %}"></script>
   <script type="text/javascript" src="{% static 'scripts/script.js' %}"></script>
 </head>
 <body>
-  {% block script_body %}
-  {% endblock script_body %}
+  <div class="body-wrap">
+    {% block script_body %}
+    {% endblock script_body %}
+  </div>
 </body>
 </html>
