@@ -55,7 +55,7 @@
             </div>
             <div class="col-md-6 common-words-wrap">
               {% for word in script.common_words %}
-              <a href="#commonword{{forloop.counter}}" data-toggle="tab">
+              <a data-id="{{forloop.counter0}}" href="#commonword{{forloop.counter0}}" data-toggle="tab">
                 <span class="common-word">
                   <span>{{word.0}}</span><span>{{word.1}}</span>
                 </span>
@@ -66,10 +66,11 @@
               <div>
                 <ul class="tab-content no-style">
                 {% for word in script.common_words %}
-                <li id="commonword{{forloop.counter}}" class="tab-pane fade{% if forloop.first %} active in {% endif %}">
+                <li id="commonword{{forloop.counter0}}" data-id="{{forloop.counter0}}" class="tab-pane fade{% if forloop.first %} active in {% endif %}">
                   <span class="">
                     <span>{{word.0}}</span><span>{{word.1}}</span>
                   </span>
+                  <div class="common-word-sentences"></div>
                 </li>
                 {% endfor %}
                 </ul>
