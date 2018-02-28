@@ -1,6 +1,88 @@
-function Script(id){
-  this.id=id;
+function Line(line){
+  this.line = line[0];
+  this.id = line.find('span.line-id').data('lid');
 }
+Line.prototype.update = function(){
+
+};
+
+
+function CommonWord(word){
+  this.word = word;
+  this.text = word.data('text');
+  this.id = word.data('id');
+  this.detail = $('.common-word-details ul.tab-content>li#commonword'+this.id);
+  this.url = window.location.pathname+"/commonwordsentences/"+this.id;
+  this.initiate();
+}
+
+CommonWord.prototype.initiate = function(){
+  var self = this;
+  if( this.id == 0 )
+  {
+    self.getSentences();
+  }
+  this.word.bind('show.bs.tab',function(){
+    self.getSentences();
+  });
+};
+
+CommonWord.prototype.getSentences = function(){
+  var self = this;
+  self.detail.find('.progress-bar').css('width','40%');
+  $.ajax({
+    url: self.url,
+    context: self.detail,
+    complete: function(jqXHR, code){
+      var sentences = jQuery.parseJSON(jqXHR.responseJSON.word.sentences);
+      self.detail.find('.progress-bar').css('width','90%');
+      console.log(sentences);
+      output = '<ul class="no-style">';
+      for(i=0;i<sentences.length;i++)
+      {
+        output += '<li>';
+        output += '<p>'+sentences[i].fields.text+'</p>';
+        output += '</li>';
+      }
+      output += '</ul>';
+      self.detail.find('.common-word-sentences').html(output);
+    },
+  });
+};
+
+function Script(id){
+  this.id = id;
+  this.lines = [];
+  this.commonwords = [];
+  this.getLines();
+  this.makeBindings();
+  this.getCommonWords();
+}
+
+Script.prototype.makeBindings = function(){
+  var self = this;
+  $('button[name="scanscript"]').bind('click',function(){
+    self.scan();
+  });
+};
+
+Script.prototype.getLines = function(){
+  var self = this;
+  var s_lines = $('ul#alines>li');
+  s_lines.each(function( index ,line ){
+    var new_line = new Line($(line));
+    self.lines.push(new_line);
+  });
+};
+
+Script.prototype.getCommonWords = function(){
+  var self = this;
+  var commonwords_list = $('.common-words-wrap>a');
+  commonwords_list.each(function( index ,obj ){
+    var commonword = new CommonWord($(obj));
+    self.commonwords.push(commonword);
+  });
+};
 
 Script.prototype.scan = function(){
   var pathname = window.location.pathname;
@@ -13,12 +95,8 @@ Script.prototype.scan = function(){
     },
   });
 };
-function Line(id){
-  this.id = id;
-}
-Line.prototype.update = function(){
 
-};
+
 function Tag(thistag){
   this.action = $(thistag).data('action');
   this.lid = $(thistag).closest('.line').find('span.line-id').data('lid');

@@ -6,10 +6,16 @@ body{
 .body-wrap{
   padding: 10px 20px;
 }
+.script-head{
+  margin-bottom: 20px;
+}
 .dropdown-menu{
   border-radius: 0px;
 }
 ul#alines{
+  padding-left: 0px;
+}
+ul.no-padding{
   padding-left: 0px;
 }
 ul#alines>li>div{
@@ -160,6 +166,9 @@ div.dropdown-menu>button{
   background-color: #E74C3C;
   padding: 20px 15px;
   font-size: 1.3em;
+}
+.common-words .common-word-details .progress{
+  margin-top: 10px;
 }
 .common-words .common-word-details li>span{
   background-color: rgba(0,0,0,0.5);

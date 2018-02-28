@@ -4,6 +4,7 @@ from pprint import pprint
 import nltk
 from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.corpus import stopwords
+from django.core import serializers
 # Create your models here.
 class Otype(models.Model):
     name = models.CharField(max_length=100)
@@ -13,6 +14,12 @@ class Tag(models.Model):
     name = models.CharField(max_length=100)
     def __str__(self):
         return self.name
+class CommonWord(models.Model):
+    text = models.CharField(max_length=100)
+    wid = models.IntegerField(default=0,blank=True)
+    wfreq = models.IntegerField(default=0,blank=True)
+    def __str__(self):
+        return self.text
 class Sentence(models.Model):
     text = models.TextField(max_length=5000)
     sentnum = models.IntegerField(blank=True)
@@ -32,6 +39,8 @@ class Sentence(models.Model):
         return tokens
     def __str__(self):
         return self.text
+    class Meta:
+        ordering = ['sentnum']
 class Line(models.Model):
     text = models.TextField(max_length=10000)
     linenum = models.IntegerField(blank=True)
@@ -67,6 +76,7 @@ class Script(models.Model):
     scriptfile = models.FileField(upload_to='scripts/')
     scanned = models.BooleanField(default=False)
     lines = models.ManyToManyField(Line, through='Script_Line', blank=True)
+    common_words = models.ManyToManyField(CommonWord, through='Script_CommonWord', blank=True)
     def line(self):
         f = open( ''+self.scriptfile.path)
         for line in f:
@@ -121,11 +131,33 @@ class Script(models.Model):
         return words
     def word_count(self):
         return len(self.all_words())
-    def common_words(self):
-        all_words = self.all_words()
-        fdist = nltk.FreqDist(all_words)
-        common_words = fdist.most_common(100)
-        return common_words
+    def common_words_all(self):
+        if(self.common_words.count()<50):
+            print('scanning for common words')
+            all_words = self.all_words()
+            fdist = nltk.FreqDist(all_words)
+            common_words = fdist.most_common(50)
+            for wid,word in enumerate(common_words):
+                common_word = CommonWord(text=word[0],wfreq=word[1],wid=wid)
+                common_word.save()
+                script_commonword = Script_CommonWord(script=self,word=common_word)
+                script_commonword.save()
+        commonwords = self.common_words.all()
+        return commonwords
+    def common_word_sentences(self,wid):
+        common_word = self.common_words.filter(wid=wid)[0]
+        word = {
+            'wid':wid, 'text':common_word.text,
+            'w_freq':common_word.wfreq,
+            'sentence_ids':[]
+            }
+        print(word)
+        for token in self.all_tokens():
+            if word['text'] == token['text'].lower():
+                word['sentence_ids'].append(token['sid'])
+        sentences = Sentence.objects.filter(id__in=word['sentence_ids'])
+        word['sentences'] = serializers.serialize('json',sentences,fields=('text','sentnum'))
+        return word
     def common_words_sentences(self):
         all_words = self.all_words()
         common_words = self.common_words()
@@ -136,12 +168,10 @@ class Script(models.Model):
                 'w_freq':word[1],'total_words':len(all_words),
                 'sentences':[],
                 }
-            print(word)
             for token in self.all_tokens():
                 if word['text'] == token['text'].lower():
                     sentence = Sentence.objects.get(pk=token['sid'])
                     word['sentences'].append(sentence)
-                    print(sentence.text)
             words.append(word)
         return words
     def line_count(self):
@@ -173,9 +203,14 @@ class Script_Line(models.Model):
     script = models.ForeignKey(Script, on_delete=models.CASCADE)
     line = models.ForeignKey(Line, on_delete=models.CASCADE)
     def __str__(self):
+        return self.line.text
+class Script_CommonWord(models.Model):
+    script = models.ForeignKey(Script, on_delete=models.CASCADE)
+    word = models.ForeignKey(CommonWord, on_delete=models.CASCADE)
+    def __str__(self):
         return self.script.name
 class Line_Sentence(models.Model):
     line = models.ForeignKey(Line, on_delete=models.CASCADE)
     sentence = models.ForeignKey(Sentence, on_delete=models.CASCADE)
     def __str__(self):
-        return self.line.linenum
+        return self.line.text

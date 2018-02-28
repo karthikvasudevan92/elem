@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block script_body %}
 <div class="">
-  <div class="row">
+  <div class="row script-head">
     <div class="col-md-11">
       <h2 class="text-center">
         {{script.name}}
@@ -50,29 +50,35 @@
             <div class="col-md-12 common-words-header">
               <div class="">
                 <span>Common Words</span>
-                <span>{{script.common_words|length}}</span>
+                <span>{{script.common_words_all|length}}</span>
               </div>
             </div>
             <div class="col-md-6 common-words-wrap">
-              {% for word in script.common_words %}
-              <a data-id="{{forloop.counter0}}" href="#commonword{{forloop.counter0}}" data-toggle="tab">
+              {% for word in script.common_words_all %}
+              <a data-id="{{word.wid}}" data-text="{{word.text}}" href="#commonword{{word.wid}}" data-toggle="tab">
                 <span class="common-word">
-                  <span>{{word.0}}</span><span>{{word.1}}</span>
+                  <span>{{word.text}}</span><span>{{word.wfreq}}</span>
                 </span>
               </a>
               {% endfor %}
             </div>
             <div class="col-md-6 common-word-details">
               <div>
-                <ul class="tab-content no-style">
-                {% for word in script.common_words %}
-                <li id="commonword{{forloop.counter0}}" data-id="{{forloop.counter0}}" class="tab-pane fade{% if forloop.first %} active in {% endif %}">
-                  <span class="">
-                    <span>{{word.0}}</span><span>{{word.1}}</span>
-                  </span>
-                  <div class="common-word-sentences"></div>
-                </li>
-                {% endfor %}
+                <ul class="tab-content no-style no-padding">
+                  {% for word in script.common_words_all %}
+                  <li id="commonword{{word.wid}}" data-id="{{word.wid}}" class="tab-pane fade{% if forloop.first %} active in {% endif %}">
+                    <span class="">
+                      <span>{{word.text}}</span><span>{{word.wfreq}}</span>
+                    </span>
+                    <div class="common-word-sentences">
+                      <div class="progress">
+                        <div class="progress-bar active progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                          <span class="sr-only">0% Complete</span>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  {% endfor %}
                 </ul>
               </div>
             </div>
@@ -141,46 +147,46 @@
                   <ul class="sentences">
                     {% for sentence in line.sentences.all %}
                     <li class="{% if forloop.first %}
-                                  infocus
-                               {% endif %}">
-                      <a data-toggle="tab"
-                      aria-expanded="{% if forloop.first %}true{% endif %}"
-                      href="#line{{line.linenum}}sentence{{sentence.sentnum}}">
-                        <div class="">
-                          <p title="{{line.id}},{{sentence.id}}">{{sentence.text}}</p>
-                        </div>
-                        <ul class="sentence-data inline-no-style">
-                          <li><span title="s_count">{{line.s_count}}</span></li>
-                          <li><span title="t_avg">{{line.t_avg|floatformat}}</span></li>
-                          <li><span title="t_count">{{sentence.t_count}}</span></li>
-                          <li><span title="c_avg">{{sentence.c_avg|floatformat}}</span></li>
-                        </ul>
-                      </a>
-                    </li>
-                    {% endfor %}
-                  </ul>
-                </div>
-                <div class="col-md-6 sentence-words">
-                  <ul class="asentences tab-content" >
-                    {% for sentence in line.sentences.all %}
-                    <li class="tab-pane fade {% if forloop.first %}
-                                              in active
-                                             {% endif %}"
-                      id="line{{line.linenum}}sentence{{sentence.sentnum}}">
-                      <div class="">
-                        <p>{% for token in sentence.tokens %}<span data-toggle="tooltip" title="{{token.tag}}" wordid="{{line.id}},{{sentence.id}},{{token.id}}">{{token.text}}</span> {% endfor %}</p>
-                      </div>
-                    </li>
-                    {% endfor %}
-                  </ul>
-                </div>
-              </div>
+                    infocus
+                    {% endif %}">
+                    <a data-toggle="tab"
+                    aria-expanded="{% if forloop.first %}true{% endif %}"
+                    href="#line{{line.linenum}}sentence{{sentence.sentnum}}">
+                    <div class="">
+                      <p title="{{line.id}},{{sentence.id}}">{{sentence.text}}</p>
+                    </div>
+                    <ul class="sentence-data inline-no-style">
+                      <li><span title="s_count">{{line.s_count}}</span></li>
+                      <li><span title="t_avg">{{line.t_avg|floatformat}}</span></li>
+                      <li><span title="t_count">{{sentence.t_count}}</span></li>
+                      <li><span title="c_avg">{{sentence.c_avg|floatformat}}</span></li>
+                    </ul>
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
             </div>
+            <div class="col-md-6 sentence-words">
+              <ul class="asentences tab-content" >
+                {% for sentence in line.sentences.all %}
+                <li class="tab-pane fade {% if forloop.first %}
+                in active
+                {% endif %}"
+                id="line{{line.linenum}}sentence{{sentence.sentnum}}">
+                <div class="">
+                  <p>{% for token in sentence.tokens %}<span data-toggle="tooltip" title="{{token.tag}}" wordid="{{line.id}},{{sentence.id}},{{token.id}}">{{token.text}}</span> {% endfor %}</p>
+                </div>
+              </li>
+              {% endfor %}
+            </ul>
           </div>
-        </li>
-        {% endfor %}
-      </ul>
+        </div>
+      </div>
     </div>
-  </div>
+  </li>
+  {% endfor %}
+</ul>
+</div>
+</div>
 </div>
 {% endblock script_body %}

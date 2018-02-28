@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Otype, Script, Line, Sentence, Tag
+from .models import Otype, Script, Line, Sentence, Tag, CommonWord
 class ScriptAdmin(admin.ModelAdmin):
     def l_count(self,obj):
         return obj.name
@@ -14,6 +14,9 @@ admin.site.register(Sentence, SentenceAdmin)
 class TagAdmin(admin.ModelAdmin):
     list_display = ('name',)
 admin.site.register(Tag, TagAdmin)
+class CommonWordAdmin(admin.ModelAdmin):
+    list_display = ('text','wfreq')
+admin.site.register(CommonWord, CommonWordAdmin)
 class OtypeAdmin(admin.ModelAdmin):
     list_display = ('name',)
 admin.site.register(Otype, OtypeAdmin)

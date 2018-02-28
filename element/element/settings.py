@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'home',
     'scripts',
+    'django_extensions'
 ]
 
 MIDDLEWARE = [
@@ -86,7 +87,7 @@ DATABASES = {
     }
 }
 
-DATA_UPLOAD_MAX_NUMBER_FIELDS = 4000
+DATA_UPLOAD_MAX_NUMBER_FIELDS = 40000
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators

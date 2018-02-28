@@ -18,6 +18,11 @@ def ScanScript(request,pk):
     script = Script.objects.get(pk=pk)
     analysis = script.scan_script()
     return JsonResponse(analysis, safe=False)
+def CommonWordSentences(request,sk,wk):
+    script = Script.objects.get(pk=sk)
+    word = script.common_word_sentences(wk)
+    response = {'sk':sk,'wk':wk,'word':word}
+    return JsonResponse(response)
 def TagAction(request,sk,lk,tk,action):
     line = Script.objects.get(pk=sk).lines.get(linenum=lk)
     tags = [tag.name for tag in line.tags.all()]
