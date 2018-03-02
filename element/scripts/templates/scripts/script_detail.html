@@ -39,9 +39,24 @@
           Script actions
           <ul class="no-style">
             <li>
+              <span>Script File: </span>
+              <a href="{{script.scriptfile.url}}">{{script.scriptfile.name}}</a>
               <button class="btn" name="scanscript" type="button">
                 <span class="glyphicon glyphicon-transfer"></span>
               </button>
+            </li>
+            <li>
+              <span>other files: </span>
+              <ul>
+                {% for scriptfile in script.scriptfiles.all %}
+                <li>
+                  <a href="{{scriptfile.url}}">{{scriptfile.name}}</a>
+                  <button class="btn" name="" type="button">
+                    <span class="glyphicon glyphicon-transfer"></span>
+                  </button>
+                </li>
+                {% endfor %}
+              </ul>
             </li>
           </ul>
         </div>

@@ -71,9 +71,15 @@ class Line(models.Model):
         return self.sentences.count()
     class Meta:
         ordering = ('linenum',)
+class File(models.Model):
+    name = models.CharField(max_length=200)
+    file = models.FileField(upload_to='scripts/')
+    def __str__(self):
+        return self.name
 class Script(models.Model):
     name = models.CharField(max_length=200)
     scriptfile = models.FileField(upload_to='scripts/')
+    scriptfiles = models.ManyToManyField(File, through='Script_File', blank=True)
     scanned = models.BooleanField(default=False)
     lines = models.ManyToManyField(Line, through='Script_Line', blank=True)
     common_words = models.ManyToManyField(CommonWord, through='Script_CommonWord', blank=True)
@@ -199,6 +205,9 @@ class Script(models.Model):
         return analysis
     def __str__(self):
         return self.name
+class Script_File(models.Model):
+    script = models.ForeignKey(Script, on_delete=models.CASCADE)
+    file = models.ForeignKey(File, on_delete=models.CASCADE)
 class Script_Line(models.Model):
     script = models.ForeignKey(Script, on_delete=models.CASCADE)
     line = models.ForeignKey(Line, on_delete=models.CASCADE)
