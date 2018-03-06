@@ -18,8 +18,9 @@ function CommonWord(word){
 
 CommonWord.prototype.initiate = function(){
   var self = this;
-  if( this.id == 0 )
+  if( this.word[0].dataset.state == 'active' )
   {
+    $(this.word[0]).tab('show');
     self.getSentences();
   }
   this.word.bind('show.bs.tab',function(){
@@ -30,13 +31,14 @@ CommonWord.prototype.initiate = function(){
 CommonWord.prototype.getSentences = function(){
   var self = this;
   self.detail.find('.progress-bar').css('width','40%');
+  $(self.word[0]).siblings().removeClass('active');
   $.ajax({
     url: self.url,
     context: self.detail,
     complete: function(jqXHR, code){
+      console.log(jqXHR);
       var sentences = jQuery.parseJSON(jqXHR.responseJSON.word.sentences);
       self.detail.find('.progress-bar').css('width','90%');
-      console.log(sentences);
       output = '<ul class="no-style">';
       for(i=0;i<sentences.length;i++)
       {
@@ -45,7 +47,9 @@ CommonWord.prototype.getSentences = function(){
         output += '</li>';
       }
       output += '</ul>';
+      $(self.word[0]).addClass('active');
       self.detail.find('.common-word-sentences').html(output);
+
     },
   });
 };
@@ -63,6 +67,10 @@ Script.prototype.makeBindings = function(){
   var self = this;
   $('button[name="scanscript"]').bind('click',function(){
     self.scan();
+  });
+  $('button[name="scanscriptfile"]').bind('click',function(){
+    scriptfile = $(this).siblings('a')[0].dataset.fid;
+    self.scanfile(scriptfile);
   });
 };
 
@@ -89,6 +97,18 @@ Script.prototype.scan = function(){
   console.log(pathname+'/scan');
   $.ajax({
     url: pathname+"/scan",
+    context: document.body,
+    complete: function(jqXHR, code){
+      console.log(jqXHR.responseJSON);
+    },
+  });
+};
+
+Script.prototype.scanfile = function(fid){
+  var pathname = window.location.pathname;
+  console.log(pathname+'/scanfile/'+fid);
+  $.ajax({
+    url: pathname+"/scanfile/"+fid,
     context: document.body,
     complete: function(jqXHR, code){
       console.log(jqXHR.responseJSON);

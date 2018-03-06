@@ -18,6 +18,10 @@ def ScanScript(request,pk):
     script = Script.objects.get(pk=pk)
     analysis = script.scan_script()
     return JsonResponse(analysis, safe=False)
+def ScanFile(request,pk,fid):
+    script = Script.objects.get(pk=pk)
+    analysis = script.scan_file(fid)
+    return JsonResponse(analysis, safe=False)
 def CommonWordSentences(request,sk,wk):
     script = Script.objects.get(pk=sk)
     word = script.common_word_sentences(wk)

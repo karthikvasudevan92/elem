@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% block title %}{{script.name}}{% endblock title %}
 {% block script_body %}
 <div class="">
   <div class="row script-head">
@@ -50,8 +51,8 @@
               <ul>
                 {% for scriptfile in script.scriptfiles.all %}
                 <li>
-                  <a href="{{scriptfile.url}}">{{scriptfile.name}}</a>
-                  <button class="btn" name="" type="button">
+                  <a href="{{scriptfile.file.url}}" data-fid="{{scriptfile.id}}">{{scriptfile.name}}</a>
+                  <button class="btn" name="scanscriptfile" type="button">
                     <span class="glyphicon glyphicon-transfer"></span>
                   </button>
                 </li>
@@ -70,7 +71,7 @@
             </div>
             <div class="col-md-6 common-words-wrap">
               {% for word in script.common_words_all %}
-              <a data-id="{{word.wid}}" data-text="{{word.text}}" href="#commonword{{word.wid}}" data-toggle="tab">
+              <a data-id="{{word.wid}}" data-text="{{word.text}}" href="#commonword{{word.wid}}" data-toggle="tab" {% if forloop.last %}data-state="active" class="active"{% endif %}>
                 <span class="common-word">
                   <span>{{word.text}}</span><span>{{word.wfreq}}</span>
                 </span>
@@ -139,7 +140,7 @@
                         {% endfor %}
                         {% for tag in tag_list %}
                         {% if tag not in line.tags.all %}
-                        <li class="tag">
+                        <li class="tag othertags">
                           <div class="dropdown">
                             <button class="btn dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                               <span class='tag-name' data-tid='{{tag.id}}'>{{tag.name}}</span>
@@ -170,11 +171,39 @@
                     <div class="">
                       <p title="{{line.id}},{{sentence.id}}">{{sentence.text}}</p>
                     </div>
-                    <ul class="sentence-data inline-no-style">
-                      <li><span title="s_count">{{line.s_count}}</span></li>
-                      <li><span title="t_avg">{{line.t_avg|floatformat}}</span></li>
-                      <li><span title="t_count">{{sentence.t_count}}</span></li>
-                      <li><span title="c_avg">{{sentence.c_avg|floatformat}}</span></li>
+                    <ul class="tags-list inline-no-style">
+                      {% for tag in sentence.tags.all %}
+                      <li class="tag tagged">
+                        <div class="dropdown">
+                          <button class="btn btn-info dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <span class='tag-name' data-tid='{{tag.id}}'>{{tag.name}}</span>
+                            <span class="caret"></span>
+                          </button>
+                          <ul class="tag-actions dropdown-menu">
+                            <li>
+                              <a data-action="remove">Remove</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      {% endfor %}
+                      {% for tag in tag_list %}
+                      {% if tag not in sentence.tags.all %}
+                      <li class="tag">
+                        <div class="dropdown">
+                          <button class="btn dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <span class='tag-name' data-tid='{{tag.id}}'>{{tag.name}}</span>
+                            <span class="caret"></span>
+                          </button>
+                          <ul class="tag-actions dropdown-menu">
+                            <li>
+                              <a data-action="add">Add</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                      {% endif %}
+                      {% endfor %}
                     </ul>
                   </a>
                 </li>

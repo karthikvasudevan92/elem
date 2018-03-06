@@ -23,13 +23,15 @@ class CommonWord(models.Model):
 class Sentence(models.Model):
     text = models.TextField(max_length=5000)
     sentnum = models.IntegerField(blank=True)
+    tags = models.ManyToManyField(Tag, blank=True)
     def linenum(self):
         lines = [line.linenum for line in self.line_set.all()]
         return lines
     def tokens(self):
         tokens = []
         words = word_tokenize(self.text)
-        for wid,word in enumerate(nltk.pos_tag(words)):
+        tagged_words = nltk.pos_tag(words)
+        for wid,word in enumerate(tagged_words):
             token = {}
             token['text'] = word[0]
             token['tag'] = word[1]
@@ -37,6 +39,17 @@ class Sentence(models.Model):
             token['sid'] = self.id
             tokens.append(token)
         return tokens
+    def get_tags(self):
+        return self.tags.all()
+    def save(self):
+        super(Sentence, self).save()
+        if len(self.tokens()) == 1:
+            oneword = Tag.objects.get(name='oneword')
+            self.tags.add(oneword)
+            print(oneword)
+        if self.text.isupper():
+            allcaps = Tag.objects.get(name='allcaps')
+            self.tags.add(allcaps)
     def __str__(self):
         return self.text
     class Meta:
@@ -62,6 +75,13 @@ class Line(models.Model):
             line_sentence = Line_Sentence(line=self,sentence=new_sentence)
             line_sentence.save()
             self.save()
+        if self.sentences.count() == 1:
+            onesentence = Tag.objects.get(name='onesentence')
+            print(onesentence)
+            self.tags.add(onesentence)
+        if self.text.isupper():
+            allcaps = Tag.objects.get(name='allcaps')
+            self.tags.add(allcaps)
     def save(self):
         super(Line, self).save()
         if not self.sentences.count()>0:
@@ -164,22 +184,6 @@ class Script(models.Model):
         sentences = Sentence.objects.filter(id__in=word['sentence_ids'])
         word['sentences'] = serializers.serialize('json',sentences,fields=('text','sentnum'))
         return word
-    def common_words_sentences(self):
-        all_words = self.all_words()
-        common_words = self.common_words()
-        words = []
-        for wid,word in enumerate(common_words):
-            word = {
-                'wid':wid, 'text':word[0],
-                'w_freq':word[1],'total_words':len(all_words),
-                'sentences':[],
-                }
-            for token in self.all_tokens():
-                if word['text'] == token['text'].lower():
-                    sentence = Sentence.objects.get(pk=token['sid'])
-                    word['sentences'].append(sentence)
-            words.append(word)
-        return words
     def line_count(self):
         return self.lines.count()
     def sentence_count(self):
@@ -202,6 +206,9 @@ class Script(models.Model):
             self.save()
         else:
             analysis = False
+        return analysis
+    def scan_file(self,fid):
+        analysis = { 'fid':fid, 'scriptid':self.id }
         return analysis
     def __str__(self):
         return self.name
