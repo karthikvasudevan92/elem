@@ -213,14 +213,21 @@
             <div class="col-md-6 sentence-words">
               <ul class="asentences tab-content" >
                 {% for sentence in line.sentences.all %}
-                <li class="tab-pane fade {% if forloop.first %}
-                in active
-                {% endif %}"
+                <li class="tab-pane fade {% if forloop.first %}in active{% endif %}"
                 id="line{{line.linenum}}sentence{{sentence.sentnum}}">
-                <div class="">
-                  <p>{% for token in sentence.tokens %}<span data-toggle="tooltip" title="{{token.tag}}" wordid="{{line.id}},{{sentence.id}},{{token.id}}">{{token.text}}</span> {% endfor %}</p>
-                </div>
-              </li>
+                  <div class="">
+                    <p>{% for token in sentence.tokens %}<span data-toggle="tooltip" title="{{token.tag}}" wordid="{{line.id}},{{sentence.id}},{{token.id}}">{{token.text}}</span> {% endfor %}</p>
+                  </div>
+                  <div class="">
+                    {% for translation in sentence.translations.all %}
+                      <p>
+                        {% for token in translation.tokens %}
+                        <span data-toggle="tooltip" title="{{token.tag}}" wordid="{{line.id}},{{sentence.id}},{{token.id}}">{{token.text}}</span>
+                        {% endfor %}
+                      </p>
+                    {% endfor %}
+                  </div>
+                </li>
               {% endfor %}
             </ul>
           </div>

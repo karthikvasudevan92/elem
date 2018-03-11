@@ -29,10 +29,9 @@ class CommonWord(models.Model):
 class Sentence(models.Model):
     text = models.TextField(max_length=5000)
     sentnum = models.IntegerField(blank=True)
-    sentid = models.IntegerField(blank=True,null=True)
     tags = models.ManyToManyField(Tag, blank=True)
     language = models.ForeignKey(Language,on_delete=models.CASCADE,null=True)
-    # translations = models.ManyToManyField(Sentence, blank=True, )
+    translations = models.ManyToManyField('self',through='Sentence_Translation', blank=True,symmetrical=False)
     def linenum(self):
         lines = [line.linenum for line in self.line_set.all()]
         return lines
@@ -180,6 +179,7 @@ class Script(models.Model):
                 common_word.save()
                 script_commonword = Script_CommonWord(script=self,word=common_word)
                 script_commonword.save()
+                print('saved common word: '+word[0])
         commonwords = self.common_words.all()
         return commonwords
     def common_word_sentences(self,wid):
@@ -236,9 +236,11 @@ class Script(models.Model):
         sentid = 0
         for line in self.lines.all():
             for sentence in line.sentences.all():
-                print('sentence '+str(sentid)+':')
-                print('--'+sentence.text)
-                print('::'+allptags[sentid].text)
+                translation = Sentence(text=allptags[sentid].text, sentnum=sentence.sentnum, language=file.language)
+                translation.save()
+                sentence_translation = Sentence_Translation(sentence=sentence,translation=translation)
+                sentence_translation.save()
+                print(sentence.translations.all())
                 sentid += 1
         analysis = { 'fid':file.name,'language':file.language.name, 'scriptid':self.id, 'sentences_found':len(allptags),'sentence_count':sentence_count, 'match':match }
         return analysis
@@ -266,3 +268,4 @@ class Line_Sentence(models.Model):
         ordering = ('line',)
 class Sentence_Translation(models.Model):
     sentence = models.ForeignKey(Sentence, on_delete=models.CASCADE)
+    translation = models.ForeignKey(Sentence, on_delete=models.CASCADE, related_name='translation', null=True)

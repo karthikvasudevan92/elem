@@ -21,7 +21,7 @@ class LineAdmin(admin.ModelAdmin):
     list_display = ('text','get_script','linenum','get_tags')
 admin.site.register(Line, LineAdmin)
 class SentenceAdmin(admin.ModelAdmin):
-    list_display = ('text', 'linenum', 'sentid' ,'sentnum','get_tags')
+    list_display = ('text','linenum','sentnum','get_tags')
 admin.site.register(Sentence, SentenceAdmin)
 class TagAdmin(admin.ModelAdmin):
     list_display = ('name',)
