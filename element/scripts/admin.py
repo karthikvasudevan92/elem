@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Otype, Script, Line, Sentence, Tag, CommonWord, File
+from .models import Otype, Script, Line, Sentence, Tag, CommonWord, File, Language
 class FileInlineAdmin(admin.TabularInline):
     model = Script.scriptfiles.through
 class ScriptAdmin(admin.ModelAdmin):
@@ -11,6 +11,9 @@ class ScriptAdmin(admin.ModelAdmin):
     ]
     inlines = (FileInlineAdmin,)
 admin.site.register(Script, ScriptAdmin)
+class LanguageAdmin(admin.ModelAdmin):
+    list_display = ('name','code')
+admin.site.register(Language, LanguageAdmin)
 class FileAdmin(admin.ModelAdmin):
     list_display = ('name','file')
 admin.site.register(File, FileAdmin)
@@ -18,7 +21,7 @@ class LineAdmin(admin.ModelAdmin):
     list_display = ('text','get_script','linenum','get_tags')
 admin.site.register(Line, LineAdmin)
 class SentenceAdmin(admin.ModelAdmin):
-    list_display = ('text', 'linenum', 'sentnum','get_tags')
+    list_display = ('text', 'linenum', 'sentid' ,'sentnum','get_tags')
 admin.site.register(Sentence, SentenceAdmin)
 class TagAdmin(admin.ModelAdmin):
     list_display = ('name',)

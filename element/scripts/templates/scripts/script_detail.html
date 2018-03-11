@@ -43,7 +43,7 @@
               <span>Script File: </span>
               <a href="{{script.scriptfile.url}}">{{script.scriptfile.name}}</a>
               <button class="btn" name="scanscript" type="button">
-                <span class="glyphicon glyphicon-transfer"></span>
+                <a href="#" onclick="return false;"><span class="glyphicon glyphicon-transfer"></span></a>
               </button>
             </li>
             <li>
@@ -53,7 +53,7 @@
                 <li>
                   <a href="{{scriptfile.file.url}}" data-fid="{{scriptfile.id}}">{{scriptfile.name}}</a>
                   <button class="btn" name="scanscriptfile" type="button">
-                    <span class="glyphicon glyphicon-transfer"></span>
+                    <a href="#" onclick="return false;"><span class="glyphicon glyphicon-transfer"></span></a>
                   </button>
                 </li>
                 {% endfor %}

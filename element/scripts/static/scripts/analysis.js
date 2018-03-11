@@ -36,7 +36,7 @@ CommonWord.prototype.getSentences = function(){
     url: self.url,
     context: self.detail,
     complete: function(jqXHR, code){
-      console.log(jqXHR);
+      // console.log(jqXHR);
       var sentences = jQuery.parseJSON(jqXHR.responseJSON.word.sentences);
       self.detail.find('.progress-bar').css('width','90%');
       output = '<ul class="no-style">';

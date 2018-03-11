@@ -10,6 +10,12 @@ class Otype(models.Model):
     name = models.CharField(max_length=100)
     def __str__(self):
         return self.name
+class Language(models.Model):
+    name = models.CharField(max_length=50)
+    code = models.CharField(max_length=4)
+    def __str__(self):
+        return self.name
+
 class Tag(models.Model):
     name = models.CharField(max_length=100)
     def __str__(self):
@@ -23,7 +29,10 @@ class CommonWord(models.Model):
 class Sentence(models.Model):
     text = models.TextField(max_length=5000)
     sentnum = models.IntegerField(blank=True)
+    sentid = models.IntegerField(blank=True,null=True)
     tags = models.ManyToManyField(Tag, blank=True)
+    language = models.ForeignKey(Language,on_delete=models.CASCADE,null=True)
+    # translations = models.ManyToManyField(Sentence, blank=True, )
     def linenum(self):
         lines = [line.linenum for line in self.line_set.all()]
         return lines
@@ -43,10 +52,11 @@ class Sentence(models.Model):
         return self.tags.all()
     def save(self):
         super(Sentence, self).save()
+        print('----sentence saved:')
+        print(self.text)
         if len(self.tokens()) == 1:
             oneword = Tag.objects.get(name='oneword')
             self.tags.add(oneword)
-            print(oneword)
         if self.text.isupper():
             allcaps = Tag.objects.get(name='allcaps')
             self.tags.add(allcaps)
@@ -67,7 +77,7 @@ class Line(models.Model):
     def __str__(self):
         return self.text
     def scan_line(self):
-        # print(self.text)
+        print('--Scanning line '+str(self.linenum))
         sents = sent_tokenize(self.text)
         for ids,sent in enumerate(sents):
             new_sentence = Sentence(text=sent,sentnum=ids)
@@ -77,7 +87,7 @@ class Line(models.Model):
             self.save()
         if self.sentences.count() == 1:
             onesentence = Tag.objects.get(name='onesentence')
-            print(onesentence)
+            # print(onesentence)
             self.tags.add(onesentence)
         if self.text.isupper():
             allcaps = Tag.objects.get(name='allcaps')
@@ -94,6 +104,7 @@ class Line(models.Model):
 class File(models.Model):
     name = models.CharField(max_length=200)
     file = models.FileField(upload_to='scripts/')
+    language = models.ForeignKey(Language,on_delete=models.CASCADE)
     def __str__(self):
         return self.name
 class Script(models.Model):
@@ -109,7 +120,7 @@ class Script(models.Model):
             print(line)
         return f.readline()
     def analysis(self):
-        print('analysis')
+        print('running analysis on '+self.name)
         analysis = {'sentence_count':0}
         f = open( ''+self.scriptfile.path)
         self.scriptfile.seek(0)
@@ -136,6 +147,7 @@ class Script(models.Model):
             line['t_avg'] = line['t_count']/line['s_count']
             lines.append(line)
         analysis['lines'] = lines
+        print('completed analysis.')
         return analysis
     def all_tokens(self):
         tokens = []
@@ -193,6 +205,7 @@ class Script(models.Model):
         return sentence_count
     def scan_script(self):
         if not self.scanned:
+            print('Scanning: '+self.name)
             analysis = self.analysis()
             for line in analysis['lines']:
                 new_line = Line(text=line['text'],linenum=line['id'])
@@ -200,15 +213,34 @@ class Script(models.Model):
                     new_line.save()
                     script_line = Script_Line(script=self,line=new_line)
                     script_line.save()
-                    print(script_line)
             if self.lines.count() == len(analysis['lines']):
                 self.scanned = True
             self.save()
         else:
+            print(self.name+' has already been scanned.')
             analysis = False
         return analysis
     def scan_file(self,fid):
-        analysis = { 'fid':fid, 'scriptid':self.id }
+        print('scanning file for '+self.name)
+        file = File.objects.get(id=fid)
+        print('filename: '+file.name)
+        print('language: '+file.language.name)
+        file_html = file.file.read()
+        soup = BeautifulSoup(file_html,'html.parser')
+        allptags = soup.findAll('p')
+        sentence_count = self.sentence_count()
+        match = False
+        if len(allptags) == sentence_count:
+            match = True
+        print('sentence count match: '+str(match))
+        sentid = 0
+        for line in self.lines.all():
+            for sentence in line.sentences.all():
+                print('sentence '+str(sentid)+':')
+                print('--'+sentence.text)
+                print('::'+allptags[sentid].text)
+                sentid += 1
+        analysis = { 'fid':file.name,'language':file.language.name, 'scriptid':self.id, 'sentences_found':len(allptags),'sentence_count':sentence_count, 'match':match }
         return analysis
     def __str__(self):
         return self.name
@@ -230,3 +262,7 @@ class Line_Sentence(models.Model):
     sentence = models.ForeignKey(Sentence, on_delete=models.CASCADE)
     def __str__(self):
         return self.line.text
+    class Meta:
+        ordering = ('line',)
+class Sentence_Translation(models.Model):
+    sentence = models.ForeignKey(Sentence, on_delete=models.CASCADE)
