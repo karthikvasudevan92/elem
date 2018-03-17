@@ -1,19 +1,21 @@
 from django.http import HttpResponse
 from django.http import JsonResponse
 from pprint import pprint
-from .models import Script, Tag
+from .models import Script, Tag, Language
+from django.shortcuts import render
 from django.views.generic import ListView
 from django.views.generic.base import TemplateView
 from django.views.generic.detail import DetailView
 from django.core import serializers
+from django.core.paginator import Paginator
+
+
 def index(request):
-    return HttpResponse("Hello, world. You're at the scripts index.")
-class ScriptDetail(DetailView):
-    model = Script
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context['tag_list'] = Tag.objects.all()
-        return context
+    return render(
+        request,
+        'index.html',
+        context={'page':'home'},
+    )
 def ScanScript(request,pk):
     script = Script.objects.get(pk=pk)
     analysis = script.scan_script()
@@ -43,6 +45,27 @@ def TagAction(request,sk,lk,tk,action):
                 }
     print(response)
     return JsonResponse(response)
+class ScriptDetail(DetailView):
+    model = Script
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        script = context['script']
+        lines = script.lines.all()
+        paginator = Paginator(lines, 100)
+        page = 1
+        page_requested = self.request.GET.get('page')
+        if page_requested:
+            page = page_requested
+        scriptlines = paginator.get_page(page)
+        context['paginator'] = paginator
+        context['lines_page'] = scriptlines
+        context['num_pages'] = paginator.num_pages
+        context['tag_list'] = Tag.objects.all()
+        return context
 class ScriptList(ListView):
     # template_name = "list.html"
     model = Script
+class LanguageDetail(DetailView):
+    model = Language
+class LanguageList(ListView):
+    model = Language

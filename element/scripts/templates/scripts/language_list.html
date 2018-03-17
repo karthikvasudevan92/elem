@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Languages - list{% endblock title %}
+{% block script_body %}
+<div class="">
+  <div class="row">
+    <div class="col-md-11">
+      <h2>Languages list</h2>
+    </div>
+    <div class="col-md-11">
+      <ul>
+        {% for language in language_list %}
+        <li><a href="language/{{language.id}}">{{language.name}}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock script_body %}

@@ -1,0 +1,160 @@
+<h3>Lines</h3>
+<p>Showing {{lines_page.start_index}} - {{lines_page.end_index}} of </p>
+<ul class="pagination">
+  {% if lines_page.has_previous %}
+    <li><a href="?page={{lines_page.previous_page_number}}">previous</a></li>
+  {% endif %}
+  {% for page in paginator.page_range %}
+    <li class="{% if page is lines_page.number %}active{% endif %}">
+      <a href="?page={{page}}" data-pagenum="{{page}}">{{page}}</a>
+    </li>
+  {% endfor %}
+  {% if lines_page.has_next %}
+    <li><a href="?page={{lines_page.next_page_number}}">next</a></li>
+  {% endif %}
+</ul>
+<ul id="alines" style="list-style:none">
+  {% for line in lines_page %}
+  <li class="line {% for tag in line.tags.all %}{{tag.name}} {% endfor %}">
+    <div class="row">
+      <div class="aline col-md-12">
+        <div class="row">
+          <div class="line-header">
+            <span class='line-id' data-lid='{{line.linenum}}'>
+              {{line.linenum}}
+            </span>
+            <ul class="line-data inline-no-style">
+              <li><span title="s_count">{{line.sentences.all.count}}</span></li>
+            </ul>
+          </div>
+          <div class="line-tags">
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="tags-list inline-no-style">
+                  {% for tag in line.tags.all %}
+                  <li class="tag tagged">
+                    <div class="dropdown">
+                      <button class="btn btn-info dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        <span class='tag-name' data-tid='{{tag.id}}'>{{tag.name}}</span>
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="tag-actions dropdown-menu">
+                        <li>
+                          <a data-action="remove">Remove</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  {% endfor %}
+                  {% for tag in tag_list %}
+                  {% if tag not in line.tags.all %}
+                  <li class="tag othertags">
+                    <div class="dropdown">
+                      <button class="btn dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        <span class='tag-name' data-tid='{{tag.id}}'>{{tag.name}}</span>
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="tag-actions dropdown-menu">
+                        <li>
+                          <a data-action="add">Add</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  {% endif %}
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 sentence-wholes">
+            <ul class="sentences">
+              {% for sentence in line.sentences.all %}
+              <li class="{% if forloop.first %}
+              infocus
+              {% endif %}">
+              <a data-toggle="tab"
+              aria-expanded="{% if forloop.first %}true{% endif %}"
+              href="#line{{line.linenum}}sentence{{sentence.sentnum}}">
+              <div class="">
+                <p title="{{line.id}},{{sentence.id}}">{{sentence.text}}</p>
+              </div>
+              <ul class="tags-list inline-no-style">
+                {% for tag in sentence.tags.all %}
+                <li class="tag tagged">
+                  <div class="dropdown">
+                    <button class="btn btn-info dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                      <span class='tag-name' data-tid='{{tag.id}}'>{{tag.name}}</span>
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="tag-actions dropdown-menu">
+                      <li>
+                        <a data-action="remove">Remove</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                {% endfor %}
+                {% for tag in tag_list %}
+                {% if tag not in sentence.tags.all %}
+                <li class="tag">
+                  <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                      <span class='tag-name' data-tid='{{tag.id}}'>{{tag.name}}</span>
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="tag-actions dropdown-menu">
+                      <li>
+                        <a data-action="add">Add</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                {% endif %}
+                {% endfor %}
+              </ul>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-md-6 sentence-words">
+        <ul class="asentences tab-content" >
+          {% for sentence in line.sentences.all %}
+          <li class="tab-pane fade {% if forloop.first %}in active{% endif %}"
+          id="line{{line.linenum}}sentence{{sentence.sentnum}}">
+          <div class="">
+            <p>{% for token in sentence.tokens %}<span data-toggle="tooltip" title="{{token.tag}}" wordid="{{line.id}},{{sentence.id}},{{token.id}}">{{token.text}}</span> {% endfor %}</p>
+          </div>
+          <div class="">
+            {% for translation in sentence.translations.all %}
+            <p>
+              {% for token in translation.tokens %}
+              <span data-toggle="tooltip" title="{{token.tag}}" wordid="{{line.id}},{{sentence.id}},{{token.id}}">{{token.text}}</span>
+              {% endfor %}
+            </p>
+            {% endfor %}
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+</li>
+{% endfor %}
+</ul>
+<ul class="pagination">
+  {% if lines_page.has_previous %}
+    <li><a href="?page={{lines_page.previous_page_number}}">previous</a></li>
+  {% endif %}
+  {% for page in paginator.page_range %}
+    <li class="{% if page is lines_page.number %}active{% endif %}">
+      <a href="?page={{page}}" data-pagenum="{{page}}">{{page}}</a>
+    </li>
+  {% endfor %}
+  {% if lines_page.has_next %}
+    <li><a href="?page={{lines_page.next_page_number}}">next</a></li>
+  {% endif %}
+</ul>

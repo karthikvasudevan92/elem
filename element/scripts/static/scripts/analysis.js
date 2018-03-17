@@ -36,14 +36,19 @@ CommonWord.prototype.getSentences = function(){
     url: self.url,
     context: self.detail,
     complete: function(jqXHR, code){
-      // console.log(jqXHR);
+      console.log(jqXHR);
+      var first_line_pk = jqXHR.responseJSON.word.first_line_pk;
       var sentences = jQuery.parseJSON(jqXHR.responseJSON.word.sentences);
       self.detail.find('.progress-bar').css('width','90%');
       output = '<ul class="no-style">';
       for(i=0;i<sentences.length;i++)
       {
+        console.log(sentences[i]);
         output += '<li>';
-        output += '<p>'+sentences[i].fields.text+'</p>';
+        output += '<div>';
+        output += '<span>'+sentences[i].fields.text+'</span>';
+        output += '<p>line:'+(sentences[i].pk)+'</p>';
+        output += '</div>';
         output += '</li>';
       }
       output += '</ul>';

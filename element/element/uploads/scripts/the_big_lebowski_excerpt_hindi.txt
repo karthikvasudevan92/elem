@@ -1,0 +1,428 @@
+<pre>
+<pre>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>THE BIG LEBOWSKI</b></span> <b>द बिग लेबोस्की</b></span> <b>
+</b>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">We are floating up a steep scrubby slope.</span> हम एक तेज स्क्रबबी ढलान ऊपर चल रहे हैं</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">We hear male voices</span> हम पुरुष आवाज सुनते हैं</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">gently singing "Tumbling Tumbleweeds" and a deep, affable,</span> धीरे से "टम्बलिंग टम्बलवेड्स" गायन और एक गहरी, समृद्ध,</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Western-accented voice--Sam Elliot's, perhaps:</span> पश्चिमी वाद्य स्वर - सैम इलियट, शायद:</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>VOICE-OVER</b></span> <b>पार्श्व स्वर</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">A way out west there was a fella,</span> पश्चिम के बाहर एक रास्ता था एक लड़का,</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">fella I want to tell you about, fella</span> फ़ल्ला मैं आपको बताना चाहता हूं, फ़ला</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">by the name of Jeff Lebowski.</span> जेफ लेबॉस्की के नाम से</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">At</span> पर</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()" style=""><span class="google-src-text" style="direction: ltr; text-align: left">least, that was the handle his lovin'</span> कम से कम, वह अपने lovin संभाल रहा था '</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">parents gave him, but he never had</span> माता-पिता ने उसे दिया, लेकिन कभी नहीं था</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">much use for it himself.</span> इसके लिए खुद का बहुत उपयोग करें</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">This</span> इस</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Lebowski, he called himself the Dude.</span> Lebowski, वह खुद को ड्यूड कहा जाता है</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Now, Dude, that's a name no one would</span> अब, यार, यह एक नाम है, कोई भी नहीं</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">self-apply where I come from.</span> आत्म-लागू होते हैं जहां से मैं आया हूं</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">But</span> परंतु</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">then, there was a lot about the Dude</span> तब, यार के बारे में बहुत कुछ था</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">that didn't make a whole lot of sense</span> उसमें बहुत सारी भावनाएं नहीं थीं</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">to me.</span> मेरे लिए।</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">And a lot about where he</span> और वह कहाँ के बारे में बहुत कुछ</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">lived, like- wise.</span> रहते थे, जैसे- बुद्धिमान</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">But then again,</span> लेकिन उसके बाद फिर से,</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">maybe that's why I found the place</span> शायद यही कारण है कि मैं जगह पाया</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">s'durned innarestin'.</span> सुने गए innarestin '</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">We top the rise and the smoggy vastness of Los Angeles at</span> हम लॉस एंजिल्स के उदय और धूमिल विशालता में सबसे ऊपर हैं</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">twilight stretches out before us.</span> गोधूलि हमारे सामने फैल गया</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>VOICE-OVER</b></span> <b>पार्श्व स्वर</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">They call Los Angeles the City of</span> वे लॉस एंजिल्स को सिटी ऑफ़ कॉल करते हैं</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Angels.</span> एन्जिल्स।</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">I didn't find it to be that</span> मुझे यह नहीं पता था कि ऐसा होना चाहिए</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">exactly, but I'll allow as there are</span> बिल्कुल, लेकिन मैं वहाँ के रूप में अनुमति देंगे</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">some nice folks there.</span> वहाँ कुछ अच्छे लोग</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">'Course, I</span> 'कोर्स, आई</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">can't say I seen London, and I never</span> यह नहीं कह सकता कि मैंने लंदन को देखा है, और मैं कभी नहीं</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">been to France, and I ain't never</span> फ्रांस के लिए गया था, और मैं कभी नहीं है</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">seen no queen in her damn undies as</span> उसकी लानत अंडे में कोई रानी नहीं देखी गई</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">the fella says.</span> फ़ल्ला कहते हैं।</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">But I'll tell you</span> लेकिन मैं आपको बता दूँगा</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">what, after seeing Los Angeles and</span> क्या, लॉस एंजिल्स को देखने के बाद और</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">thisahere story I'm about to unfold--</span> इस कहानी को मैं उतारने के बारे में हूँ -</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">wal, I guess I seen somethin' ever'</span> वाल, मुझे लगता है कि मैंने कभी नहीं देखा 'कभी'</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">bit as stupefyin' as ya'd see in any</span> बिट्स स्टुफेफिन 'के रूप में किसी भी रूप में देखता हूँ</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">a those other places, and in English</span> एक अन्य जगह, और अंग्रेजी में</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">too, so I can die with a smile on my</span> भी, इसलिए मैं अपने मुस्कुराहट के साथ मेरी मृत्यु के साथ मर सकता है</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">face without feelin' like the good</span> अच्छा बिना किसी चेहरे का सामना करना</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Lord gypped me.</span> भगवान ने मुझे gipped</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>INTERIOR RALPH'S</b></span> <b>इंटिरियर राल्प की</b></span> <b>
+</b>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">It is late, the supermarket all but deserted.</span> यह देर हो चुकी है, सुपरमार्केट सभी लेकिन निर्जन</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">We are tracking</span> हम ट्रैकिंग कर रहे हैं</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">in on a fortyish man in Bermuda shorts and sunglasses at the</span> में बरमूडा शॉर्ट्स और धूप का चश्मा में एक चालीस पुरुष पर</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">dairy case.</span> डेयरी मामले</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">He is the Dude.</span> वह ड्यूड है</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">His rumpled look and relaxed</span> उनका रौंप्ड लग रहा है और आराम से</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">manner suggest a man in whom casualness runs deep.</span> तरीके से एक आदमी को सूचित करता है जिसमें व्यर्थता गहराई से चलता है।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">He is feeling quarts of milk for coldness and examining their</span> वह शीतलता के लिए दूध की क्वॉर्ट्स महसूस कर रहा है और उनकी जांच कर रहा है</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">expiration dates.</span> समाप्ति की तिथियां।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>VOICE-OVER</b></span> <b>पार्श्व स्वर</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Now this story I'm about to unfold</span> अब इस कहानी को मैं खोलने के बारे में हूँ</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">took place back in the early nineties--</span> नब्बे के दशक के शुरुआती दिनों में वापस ले लिया -</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">just about the time of our conflict</span> बस हमारे संघर्ष के समय के बारे में</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">with Sad'm and the Eye-rackies.</span> सादा और आई-रेकी के साथ</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">I</span> मैं</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">only mention it 'cause some- times</span> केवल इसका उल्लेख 'कुछ समय के कारण होता है</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">there's a man--I won't say a hee-ro,</span> वहाँ एक आदमी है - मैं एक hee-ro नहीं कहूँगा,</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">'cause what's a hee-ro?--but sometimes</span> 'क्या कारण है वह क्या है? - लेकिन कभी-कभी</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">there's a man.</span> वहाँ एक आदमी है</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">The Dude glances furtively about and then opens a quart of</span> बूढ़े दोस्त के बारे में झलकता है और फिर एक चौथाई भाग खोलता है</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">milk.</span> दूध।</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">He sticks his nose in the spout and sniffs.</span> वह अपनी नाक को टोंटी में डालता है और स्निफ़ करता है।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>VOICE-OVER</b></span> <b>पार्श्व स्वर</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">And I'm talkin' about the Dude here--</span> और मैं यहाँ 'दोस्त' के बारे में बात कर रहा हूं--</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">sometimes there's a man who, wal,</span> कभी कभी एक आदमी है, वाल,</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">he's the man for his time'n place,</span> वह आदमी अपने समय के लिए जगह है,</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">he fits right in there--and that's</span> वह सही में फिट बैठता है - और यही है</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">the Dude, in Los Angeles.</span> लॉस एंजिल्स में ड्यूड,</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>CHECKOUT GIRL</b></span> <b>चैकआउट लड़की</b></span> <b>
+</b>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">She waits, arms folded.</span> वह इंतजार कर रही है, हथियार जोड़कर</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">A small black-and white TV next to</span> एक छोटे काले और सफेद टीवी अगले बगल में</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">her register shows George Bush on the White House lawn with</span> उसके रजिस्टर में जॉर्ज बुश व्हाइट हाउस लॉन पर दिखाता है</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">helicopter rotors spinning behind him.</span> उसके पीछे कताई हेलीकाप्टर रोटार</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>GEORGE BUSH</b></span> <b>जॉर्ज बुश</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">This aggression will not stand.</span> यह आक्रमण खड़ा नहीं होगा।</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">.</span> ।</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">.</span> ।</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">This will not stand!</span> यह खड़ा नहीं होगा!</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">The Dude, peeking over his shades, scribbles something at</span> यार, अपने रंगों को देखकर, कुछ लिखते हैं</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">the little customer's lectern.</span> छोटे ग्राहक का लैक्टन</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Milk beads his mustache.</span> दूध मोती अपनी मूंछें</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>VOICE-OVER</b></span> <b>पार्श्व स्वर</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">...and even if he's a lazy man, and</span> ... और यहां तक ​​कि अगर वह एक आलसी आदमी है, और</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">the Dude was certainly that--quite</span> दोस्त निश्चित रूप से - काफी था</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">possibly the laziest in Los Angeles</span> संभवतः लॉस एंजिल्स में लेज़ेस्ट</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">County.</span> काउंटी।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">The Dude has his Ralph's Shopper's Club card to one side and</span> दूड के पास एक तरफ राल्फ के शॉपर्स क्लब कार्ड हैं और</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">is making out a check to Ralph's for sixty-nine cents.</span> राल्फ के पास साठ-नौ सेंट के लिए एक चेक बना रहा है।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>VOICE-OVER</b></span> <b>पार्श्व स्वर</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">...which would place him high in the</span> ... जो उसे उच्च में जगह देगा</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">runnin' for laziest worldwide--but</span> रननिन 'के लिए दुनिया भर में laziest - लेकिन</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">sometimes there's a man.</span> कभी कभी एक आदमी है</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">.</span> ।</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">.</span> ।</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">sometimes</span> कभी कभी</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">there's a man.</span> वहाँ एक आदमी है</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>EXTERIOR RALPH'S</b></span> <b>बाहरी रलप</b></span> <b>
+</b>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Long shot of the glowing Ralph's.</span> चमकदार राल्फ के लंबे शॉट</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">There are only two or</span> केवल दो या हैं</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">three cars parked in the huge lot.</span> बहुत बड़ी में तीन कारें खड़ी हुईं</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>VOICE-OVER</b></span> <b>पार्श्व स्वर</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Wal, I lost m'train of thought here.</span> वाल, मैंने सोचा था कि यहां मित्रा का खतरा है।</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">But--aw hell, I done innerduced him</span> लेकिन - एक नरक, मैंने उसे आतंकित किया</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">enough.</span> पर्याप्त।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">The Dude is a small figure walking across the vast lot.</span> विशाल विशाल के पार चलने वाला एक छोटा सा आंकड़ा है।</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Next to him walks a Mexican carry-out boy in a red apron and</span> उसके बाद उसके पास एक मैक्सिकन लेय-आउट लड़का चलता है और एक लाल एप्रन में</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">cap carrying a small brown bag holding the quart of milk.</span> दूध के चौथाई भाग धारण एक छोटे भूरे रंग का बैग ले जाने वाली टोपी</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">The two men's footsteps echo in the still of the night.</span> दो पुरुषों के नक्शेकदम रात के अभी भी गूंजते हैं</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">After a beat of walking the Dude offhandedly points.</span> ड्यूड ऑफडेंडेलीली पॉइंट्स को चलने के एक हरा के बाद।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>DUDE</b></span> <b>यार</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">It's the LeBaron.</span> यह LeBaron है</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>DUDE'S HOUSE</b></span> <b>ड्यूड्स के घर</b></span> <b>
+</b>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">The Dude is going up the walkway of a small Venice bungalow</span> ड्यूड एक छोटा वेनिस बंगला के रास्ते पर जा रहा है</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">court.</span> कोर्ट।</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">He holds the paper sack in one hand and a small</span> वह एक हाथ में कागज की बोरी रखती है और एक छोटे से</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">leatherette satchel in the other.</span> दूसरे में कृत्रिम चमड़ा शराबी</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">He awkwardly hugs the</span> वह awkwardly hugs इस</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">grocery bag against his chest as he turns a key in his door.</span> उसकी छाती के साथ किराने की थैली के रूप में वह अपने दरवाजे में एक कुंजी मुड़ता है।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>INSIDE</b></span> <b>के भीतर</b></span> <b>
+</b>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">The Dude enters and flicks on a light.</span> यार एक प्रकाश पर प्रवेश करती है और आती है</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">His head is grabbed from behind and tucked into an armpit.</span> उसका सिर पीछे से पकड़ा गया है और एक बगल में tucked।</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">We track with him as he is rushed through the living room,</span> हम उसके साथ ट्रैक करते हैं क्योंकि वह कमरे में बैठे जाते हैं,</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">his arm holding the satchel flailing away from his body.</span> उसके हाथ से बैठा अपने शरीर से दूर फूटना</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Going into the bedroom the outflung satchel catches a piece</span> बेडरूम में जाकर बहते हुए थूक एक टुकड़ा पकड़ता है</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">of doorframe and wallboard and rips through it, leaving a</span> दरवाजे के फ्रेम और दीवार के माध्यम से और rips इसके माध्यम से, एक छोड़ने</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">hole.</span> छेद।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">The Dude is propelled across the bedroom and on into a small</span> डूड बेडरूम में और एक छोटे से में चला गया है</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">bathroom, the satchel once again taking away a piece of</span> बाथरूम, बैठा एक बार फिर से एक टुकड़ा दूर ले</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">doorframe.</span> दरवाज़े का ढांचा।</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">His head is plunged into the toilet.</span> उसका सिर शौचालय में गिर गया है</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">The paper</span> कागज़</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">bag hugged to his chest explodes milk as it hits the toilet</span> बैग को छाती में गले लगाया जाता है क्योंकि यह शौचालय को मारता है</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">rim and the satchel pulverizes tile as it crashes to the</span> रिम और बैठा टाइल को ढेर कर देती है क्योंकि यह क्रैश करता है</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">floor.</span> मंज़िल।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">The Dude blows bubbles.</span> यार ने बुलबुले को मार दिया</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>VOICE</b></span> <b>आवाज़</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">We want that money, Lebowski.</span> हम उस पैसे चाहते हैं, लेबॉस्की</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Bunny</span> करगोश</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">said you were good for it.</span> ने कहा कि आप इसके लिए अच्छे थे।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Hands haul the Dude out of the toilet.</span> हाथ शौचालय से ड्यूड को निकालते हैं</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">The Dude blubbers and</span> यार ब्ल्यूबर्स और</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">gasps for air.</span> हवा के लिए दबंग</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>VOICE</b></span> <b>आवाज़</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Where's the money, Lebowski!</span> पैसा कहाँ है, लेबॉस्की!</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">His head is plunged back into the toilet.</span> उसका सिर शौचालय में वापस गिर गया है</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>VOICE</b></span> <b>आवाज़</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Where's the money, Lebowski!</span> पैसा कहाँ है, लेबॉस्की!</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">The hands haul him out again, dripping and gasping.</span> हाथ उसे बाहर फिर से दौड़, टपकाव और gasping।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>VOICE</b></span> <b>आवाज़</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>WHERE'S THE FUCKING MONEY, SHITHEAD!</b></span> <b>जहां कमबख्त पैसा है, शहीद!</b></span> <b>
+</b>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>DUDE</b></span> <b>यार</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">It's uh, it's down there somewhere.</span> यह उह है, यह कहीं नीचे है</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Lemme take another look.</span> लेमैक एक और नज़र रखना</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">His head is plunged back in.</span> उसके सिर में वापस डूब गया है</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>VOICE</b></span> <b>आवाज़</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Don't fuck with us.</span> हमारे साथ बकवास मत करो</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">If your wife</span> अगर आपकी पत्नी</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">owes money to Jackie Treehorn, that</span> जैकी ट्रीहॉर्न को बकाया है, वह</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">means you owe money to Jackie</span> अर्थ है कि आप जैकी को पैसे दे रहे हैं</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Treehorn.</span> Treehorn।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">The inquisitor hauls the Dude's head out one last time and</span> जिज्ञासाकर्ता एक आखिरी बार यार के सिर को ढकेलता है और</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">flops him over so that he sits on the floor, back against</span> उसे फ्लॉप कर देता है ताकि वह फर्श पर बैठे, वापस के खिलाफ</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">the toilet.</span> शौचालय।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">The Dude gropes back in the toilet with one hand.</span> यार एक हाथ से शौचालय में वापस आती है।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Looming over him is a strapping blond man.</span> उस पर लटकते हुए एक कड़ी चोट गोरा आदमी है</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Beyond in the living room a young Chinese man unzips his fly</span> रहने वाले कमरे में से परे एक युवा चीनी आदमी अपनी मक्खी unzips</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">and walks over to a rug.</span> और एक गलीचा पर चलता है</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>CHINESE MAN</b></span> <b>चीनी आदमी</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Ever thus to deadbeats, Lebowski.</span> कभी इस तरह मर चुका है, लेबॉस्की</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">He starts peeing on the rug.</span> वह गलीचा पर पेशाब शुरू होता है</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">The Dude's hand comes out of the toilet bowl with his</span> ड्यूड का हाथ शौचालय के कटोरे से बाहर आता है</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">sunglasses.</span> धूप का चश्मा।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>DUDE</b></span> <b>यार</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Oh, man.</span> ओह आदमी।</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Don't do--</span> मत करो -</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>BLOND MAN</b></span> <b>ब्लॉन्ड मैन</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">You see what happens?</span> तुम देखो क्या होता है?</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">You see what</span> तुम क्या देखते हो</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">happens, Lebowski?</span> होता है, लेबॉस्की?</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">The Dude puts on his dripping sunglasses.</span> दुड अपने टपकाव के धूप का चश्मा पर डालता है</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>DUDE</b></span> <b>यार</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Look, nobody calls me Lebowski.</span> देखो, कोई मुझे लेब्वोस्की नहीं कहता</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">You</span> आप</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">got the wrong guy.</span> गलत आदमी मिला</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">I'm the Dude,</span> मैं दोस्त हूँ,</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">man.</span> आदमी।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>BLOND MAN</b></span> <b>ब्लॉन्ड मैन</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Your name is Lebowski.</span> आपका नाम लेबॉस्की है</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Your wife is</span> आपकी पत्नी है</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Bunny.</span> बनी।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>DUDE</b></span> <b>यार</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Bunny?</span> बनी?</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Look, moron.</span> देखो, मूर्ख</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">He holds up his hands.</span> वह अपने हाथ रखती है</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>DUDE</b></span> <b>यार</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">You see a wedding ring?</span> आप शादी की अंगूठी देख रहे हैं?</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Does this</span> क्या ये</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">place look like I'm fucking married?</span> जगह लग रही है जैसे मैं कमबख्त शादी कर रहा हूँ?</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">All my plants are dead!</span> मेरे सभी पौधे मर चुके हैं!</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">The blond man stoops to unzip the satchel.</span> गोरा आदमी शराबी खोलने के लिए रोकता है</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">He pulls out a</span> वह बाहर खींचता है एक</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">bowling ball and examines it in the manner of a superstitious</span> गेंदबाजी गेंद और एक अंधविश्वासी के तरीके में जांच करता है</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">native.</span> देशी।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>BLOND MAN</b></span> <b>ब्लॉन्ड मैन</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">The fuck is this?</span> बकवास यह है?</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">The Dude pats at his pockets, takes out a joint and lights</span> अपनी जेब पर डूड पैट्स, एक संयुक्त और रोशनी लेती हैं</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">it.</span> यह।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>DUDE</b></span> <b>यार</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Obviously you're not a golfer.</span> जाहिर है आप गोल्फर नहीं हैं</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">The blond man drops the ball which pulverizes more tile.</span> गोरा आदमी गेंद को गिरता है जो अधिक टाइल को पीसता है।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>BLOND MAN</b></span> <b>ब्लॉन्ड मैन</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Woo?</span> लुभाने?</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">The Chinese man is zipping his fly.</span> चीनी आदमी अपनी मक्खी ज़िप कर रहा है।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>WOO</b></span> <b>वू</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Yeah?</span> हाँ?</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>BLOND MAN</b></span> <b>ब्लॉन्ड मैन</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Wasn't this guy supposed to be a</span> क्या यह आदमी एक नहीं था</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">millionaire?</span> करोड़पति?</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>WOO</b></span> <b>वू</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Uh?</span> उह?</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">They both look around.</span> वे दोनों आस-पास दिखते हैं</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>WOO</b></span> <b>वू</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Fuck.</span> लानत है।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>BLOND MAN</b></span> <b>ब्लॉन्ड मैन</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">What do you think?</span> तुम क्या सोचते हो?</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>WOO</b></span> <b>वू</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">He looks like a fuckin' loser.</span> वह एक साला 'हारे हुए जैसा दिखता है</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">The Dude pulls his sunglasses down his nose with one finger</span> यार ने अपने उंगलियों के साथ अपने नाक के नीचे अपने धूप का चश्मा खींच लिया</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">and peeks over them.</span> और उन पर झांकना।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>DUDE</b></span> <b>यार</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Hey.</span> अरे।</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">At least I'm housebroken.</span> कम से कम मैं घर तोड़ रहा हूं।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">The two men look at each other.</span> दो पुरुष एक-दूसरे को देखते हैं</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">They turn to leave.</span> वे जाने के लिए बारी</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>WOO</b></span> <b>वू</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Fuckin' waste of time.</span> समय की साला बेकार</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">The blond man turns testily at the door.</span> गोरा आदमी दरवाज़े पर गहरी परीक्षा देता है।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>BLOND MAN</b></span> <b>ब्लॉन्ड मैन</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Thanks a lot, asshole.</span> बहुत बहुत धन्यवाद, गधे</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>ON THE DOOR SLAM WE CUT TO:</b></span> <b>दरवाजे पर हम काटते हैं:</b></span> <b>
+</b>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>BOWLING PINS</b></span> <b>बोलिंग पिन</b></span> <b>
+</b>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Scattered by a strike.</span> एक हड़ताल से बिखरे हुए</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Music and head credits play over various bowling shots--pins</span> संगीत और सिर क्रेडिट विभिन्न गेंदबाजी शॉट्स पर खेलते हैं - पिंस</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">flying, bowlers hoisting balls, balls gliding down lanes,</span> उड़ान, गेंदबाजों को उड़ाते हुए गेंदें, गेंदों को नीचे की तरफ फिसलने,</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">sliding feet, graceful releases, ball return spinning up a</span> स्लाइडिंग पैर, सुंदर रिलीज, गेंद रिटर्न कताई एक</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">ball, fingers sliding into fingerholes, etc.</span> बॉल, उंगलियों को उंगली में फिसलने, आदि।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">The music turns into boomy source music, coming from a distant</span> संगीत एक तेजी से आ रहा है, बूमनी स्रोत संगीत में बदल जाता है</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">jukebox, as the credits end over a clattering strike.</span> ज्यूकबॉक्स, जैसा कि धब्बेदार स्ट्राइक पर क्रेडिट समाप्त होता है।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">A lanky blonde man with stringy hair tied back in a ponytail</span> एक तिपतिया घास के साथ लंगड़ा सुनहरे बालों वाले आदमी को बाँध दिया</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">turns from the strike to walk back to the bench.</span> हड़ताल से वापस बेंच पर चलने के लिए मुड़ता है</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>MAN</b></span> <b>आदमी</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Hot damn, I'm throwin' rocks tonight.</span> गर्म लानत है, मैं आज रात चट्टानों पर हूँ।</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Mark it, Dude.</span> इसे चिह्नित करें, दोस्त</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">We are tracking in on the circular bench towards a big man</span> हम एक बड़े आदमी की ओर परिपत्र बेंच पर ट्रैकिंग कर रहे हैं</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">nursing a large plastic cup of Bud.</span> बड का एक बड़ा प्लास्टिक कप नर्सिंग</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">He has dark worried</span> वह अंधेरा चिंतित है</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">eyes and a goatee.</span> आँखें और एक गेटे</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Hairy legs emerge from his khaki shorts.</span> बालों वाले पैर अपने खाकी शॉर्ट्स से निकलते हैं।</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">He also wears a khaki army surplus shirt with the sleeves</span> वह भी आस्तीन के साथ एक खाकी सेना अधिशेष शर्ट पहनता है</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">cut off over an old bowling shirt.</span> एक पुरानी गेंदबाजी शर्ट पर काट दिया</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">This is Walter.</span> यह वाल्टर है</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">He</span> वह</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">squints through the smoke from his own cigarette as he</span> अपने ही सिगरेट से धूम्रपान के माध्यम से squints के रूप में वह</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">addresses the Dude at the scoring table.</span> स्कोरिंग टेबल पर ड्यूड को संबोधित करते हैं</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">The Dude, also holding a large plastic cup of Bud, wears</span> दूड, जिसमें बड का एक बड़ा प्लास्टिक कप भी होता है, पहनता है</span>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">some of its foam on his mustache.</span> उसकी मूंहों में से कुछ उसकी मूंछों पर</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>WALTER</b></span> <b>वाल्टर</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">This was a valued rug.</span> यह एक मूल्यवान गलीचा था</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">He elaborately clears his throat.</span> वह विस्तृत रूप से अपने गले को साफ करता है</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>WALTER</b></span> <b>वाल्टर</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">This was, uh--</span> यह था, उह -</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>DUDE</b></span> <b>यार</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Yeah man, it really tied the room</span> हाँ, यह वाकई कमरे को बांध दिया</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">together--</span> साथ में--</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>WALTER</b></span> <b>वाल्टर</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">This was a valued, uh.</span> यह एक मूल्यवान था, उह</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Donny, the strike-scoring bowler, enters and sits next Walter.</span> Donny, हड़ताल-स्कोरिंग गेंदबाज, प्रवेश करती है और अगले वाल्टर पर बैठता है</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>DONNY</b></span> <b>डोनी</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">What tied the room together, Dude?</span> क्या कमरा एक साथ बंधे, दोस्त?</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>WALTER</b></span> <b>वाल्टर</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Were you listening to the story,</span> क्या आप कहानी सुन रहे थे,</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Donny?</span> डोनी?</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>DONNY</b></span> <b>डोनी</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">What--</span> क्या--</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>WALTER</b></span> <b>वाल्टर</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Were you listening to the Dude's</span> क्या आप ड्यूड की बात सुन रहे थे?</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">story?</span> कहानी?</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>DONNY</b></span> <b>डोनी</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">I was bowling--</span> मैं गेंदबाजी कर रहा था--</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>WALTER</b></span> <b>वाल्टर</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">So you have no frame of reference,</span> तो आपके संदर्भ का कोई फ्रेम नहीं है,</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Donny.</span> डोनी।</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">You're like a child who</span> आप एक बच्चे की तरह हैं जो</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">wanders in in the middle of a movie</span> एक फिल्म के बीच में भटकते हैं</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">and wants to know--</span> और जानना चाहता है -</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>DUDE</b></span> <b>यार</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">What's your point, Walter?</span> तुम्हारी बात क्या है, वाल्टर?</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>WALTER</b></span> <b>वाल्टर</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">There's no fucking reason--here's my</span> कोई कमबख्त कारण नहीं है - यहाँ मेरा है</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">point, Dude--there's no fucking reason--</span> बिंदु, यार - कोई कमबख्त कारण नहीं है -</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>DONNY</b></span> <b>डोनी</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Yeah Walter, what's your point?</span> हाँ वाल्टर, तुम्हारा मतलब क्या है?</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>WALTER</b></span> <b>वाल्टर</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Huh?</span> है ना?</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>DUDE</b></span> <b>यार</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">What's the point of--we all know who</span> क्या बात है - हम सभी जानते हैं कि कौन</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">was at fault, so what the fuck are</span> गलती थी, इसलिए बकवास क्या हैं</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">you talking about?</span> तुम विषय मैं बात कर रहे हो?</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>WALTER</b></span> <b>वाल्टर</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Huh?</span> है ना?</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">No!</span> नहीं!</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">What the fuck are you</span> क्या बकवास हैं आप</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">talking--I'm not--we're talking about</span> बात - मैं नहीं हूं - हम इसके बारे में बात कर रहे हैं</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">unchecked aggression here--</span> यहां अनियंत्रित आक्रमण -</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>DONNY</b></span> <b>डोनी</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">What the fuck is he talking about?</span> क्या बकवास वह बात कर रहा है?</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>DUDE</b></span> <b>यार</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">My rug.</span> मेरी गलीचा</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>WALTER</b></span> <b>वाल्टर</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Forget it, Donny.</span> इसे भूल जाओ, डोनी</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">You're out of</span> आप से बाहर हैं</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">your element.</span> आपका तत्व</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>DUDE</b></span> <b>यार</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">This Chinaman who peed on my rug, I</span> यह चिंचमन जो मेरी गलीचा पर चढ़ा था, मैं</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">can't go give him a bill so what the</span> उसे एक बिल देने के लिए नहीं जा सकता तो क्या होगा</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">fuck are you talking about?</span> बकवास आप के बारे में बात कर रहे हैं?</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>WALTER</b></span> <b>वाल्टर</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">What the fuck are you talking about?!</span> क्या बकवास आप के बारे में बात कर रहे हैं ?!</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">This Chinaman is not the issue!</span> यह चिन्मन मुद्दा नहीं है!</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">I'm</span> मैं हूँ</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">talking about drawing a line in the</span> में एक लाइन ड्राइंग के बारे में बात कर</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">sand, Dude.</span> रेत, यार</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Across this line you do</span> इस लाइन में आप ऐसा करते हैं</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">not, uh--and also, Dude, Chinaman is</span> नहीं, उह - और भी, यार, चीनीमैन है</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">not the preferred, uh.</span> पसंदीदा नहीं, उह</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">.</span> ।</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">.</span> ।</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Asian-</span> Asian-</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">American.</span> अमेरिकन।</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Please.</span> कृप्या।</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>DUDE</b></span> <b>यार</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Walter, this is not a guy who built</span> वाल्टर, यह एक आदमी नहीं है जो बनाया गया था</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">the rail- roads, here, this is a guy</span> रेल-सड़कों, यहाँ, यह एक लड़का है</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">who peed on my--</span> जो मेरी पीढ़ी पर -</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>WALTER</b></span> <b>वाल्टर</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">What the fuck are you--</span> आप क्या बकवास कर रहे हैं -</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>DUDE</b></span> <b>यार</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Walter, he peed on my rug--</span> वाल्टर, वह मेरी गलीचा पर peed -</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>DONNY</b></span> <b>डोनी</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">He peed on the Dude's rug--</span> वह ड्यूड की गली पर चढ़ गया -</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>WALTER</b></span> <b>वाल्टर</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">YOU'RE OUT OF YOUR ELEMENT!</span> आप अपने तत्व से बाहर हैं!</span> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">This</span> इस</span>
+		<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">Chinaman is not the issue, Dude.</span> Chinaman मुद्दा नहीं है, यार</span><font></font>
+<font></font>
+<span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left"><b>DUDE</b></span> <b>यार</b></span> <b>
+</b> <span class="notranslate" onmouseover="_tipon(this)" onmouseout="_tipoff()"><span class="google-src-text" style="direction: ltr; text-align: left">So who--</span> तो कौन--</span><font></font>
+</pre>
+</pre>

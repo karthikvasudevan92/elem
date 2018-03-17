@@ -13,6 +13,7 @@ class Otype(models.Model):
 class Language(models.Model):
     name = models.CharField(max_length=50)
     code = models.CharField(max_length=4)
+
     def __str__(self):
         return self.name
 
@@ -26,6 +27,12 @@ class CommonWord(models.Model):
     wfreq = models.IntegerField(default=0,blank=True)
     def __str__(self):
         return self.text
+class Word(models.Model):
+    text = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.text
+
 class Sentence(models.Model):
     text = models.TextField(max_length=5000)
     sentnum = models.IntegerField(blank=True)
@@ -33,8 +40,7 @@ class Sentence(models.Model):
     language = models.ForeignKey(Language,on_delete=models.CASCADE,null=True)
     translations = models.ManyToManyField('self',through='Sentence_Translation', blank=True,symmetrical=False)
     def linenum(self):
-        lines = [line.linenum for line in self.line_set.all()]
-        return lines
+        return self.line_set.all()[0].linenum
     def tokens(self):
         tokens = []
         words = word_tokenize(self.text)
@@ -86,11 +92,12 @@ class Line(models.Model):
             self.save()
         if self.sentences.count() == 1:
             onesentence = Tag.objects.get(name='onesentence')
-            # print(onesentence)
             self.tags.add(onesentence)
-        if self.text.isupper():
-            allcaps = Tag.objects.get(name='allcaps')
-            self.tags.add(allcaps)
+            if self.text.isupper():
+                allcaps = Tag.objects.get(name='allcaps')
+                subheading = Tag.objects.get(name='subheading')
+                self.tags.add(allcaps)
+                self.tags.add(subheading)
     def save(self):
         super(Line, self).save()
         if not self.sentences.count()>0:
@@ -118,6 +125,11 @@ class Script(models.Model):
         for line in f:
             print(line)
         return f.readline()
+    def lines_fetch(self, num):
+        if not num:
+            num = 10
+        lines = self.lines.all()[0]
+        return lines
     def analysis(self):
         print('running analysis on '+self.name)
         analysis = {'sentence_count':0}
@@ -187,14 +199,18 @@ class Script(models.Model):
         word = {
             'wid':wid, 'text':common_word.text,
             'w_freq':common_word.wfreq,
-            'sentence_ids':[]
+            'sentence_ids':[], 'first_line_pk':self.first_line()
             }
-        print(word)
+        print('getting sentences that have the word: '+word['text'])
         for token in self.all_tokens():
             if word['text'] == token['text'].lower():
-                word['sentence_ids'].append(token['sid'])
-        sentences = Sentence.objects.filter(id__in=word['sentence_ids'])
-        word['sentences'] = serializers.serialize('json',sentences,fields=('text','sentnum'))
+                matched_sentence = Sentence.objects.get(id=token['sid'])
+                if matched_sentence.tags.filter(name='allcaps') and matched_sentence.line_set.all()[0].tags.filter(name='onesentence'):
+                    print('subheading excluded')
+                else:
+                    word['sentence_ids'].append(token['sid'])
+        sentences = Sentence.objects.filter(id__in=word['sentence_ids']).order_by('line_sentence')
+        word['sentences'] = serializers.serialize('json',sentences,fields=('text','sentnum','linenum'))
         return word
     def line_count(self):
         return self.lines.count()
@@ -203,6 +219,8 @@ class Script(models.Model):
         for line in self.lines.all():
             sentence_count += line.sentence_count()
         return sentence_count
+    def first_line(self):
+        return self.lines.all()[0].id
     def scan_script(self):
         if not self.scanned:
             print('Scanning: '+self.name)
@@ -254,6 +272,8 @@ class Script_Line(models.Model):
     line = models.ForeignKey(Line, on_delete=models.CASCADE)
     def __str__(self):
         return self.line.text
+    class Meta:
+        ordering = ('line',)
 class Script_CommonWord(models.Model):
     script = models.ForeignKey(Script, on_delete=models.CASCADE)
     word = models.ForeignKey(CommonWord, on_delete=models.CASCADE)
@@ -265,7 +285,7 @@ class Line_Sentence(models.Model):
     def __str__(self):
         return self.line.text
     class Meta:
-        ordering = ('line',)
+        ordering = ('line','sentence')
 class Sentence_Translation(models.Model):
     sentence = models.ForeignKey(Sentence, on_delete=models.CASCADE)
     translation = models.ForeignKey(Sentence, on_delete=models.CASCADE, related_name='translation', null=True)

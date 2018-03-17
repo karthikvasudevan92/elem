@@ -21,8 +21,12 @@ ul.no-padding{
 ul#alines>li>div{
   /*border: 1px solid lightblue;*/
 }
+
 ul#alines>li{
   margin-bottom: 50px;
+}
+li.line.subheading .line-tags,li.line.subheading .sentence-wholes,li.line.subheading .line-header{
+  /* display: none; */
 }
 ul#alines .aline{
   background-color: #f4f4f4;
@@ -180,6 +184,10 @@ div.dropdown-menu>button{
   padding: 20px 15px;
   font-size: 1.3em;
 }
+.common-words .common-word-details>div{
+  max-height: 500px;
+  overflow-y: scroll;
+}
 .common-words .common-word-details .progress{
   margin-top: 10px;
 }
@@ -199,8 +207,10 @@ div.dropdown-menu>button{
   padding-left: 5px;
 }
 .common-word-sentences ul>li{
-  background-color: #3498DB;
   color: #ffffff;
-  padding: 5px 15px;
   margin-bottom: 10px;
+}
+.common-word-sentences ul>li>div{
+  background-color: #3498DB;
+  padding: 5px 15px;
 }

@@ -18,6 +18,27 @@
   <script type="text/javascript" src="{% static 'scripts/script.js' %}"></script>
 </head>
 <body>
+  {% block navigation %}
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="">element</a>
+        </div>
+        {% block navbar %}
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="/scripts">Scripts</a></li>
+          <li><a href="{% url 'languages' %}">Languages</a></li>
+        </ul>
+        {% endblock navbar %}
+      </div>
+    </nav>
+    {% block breadcrumbs %}
+    <ol class="breadcrumb">
+      <li class="active"><a href="">Home</a></li>
+    </ol>
+    {% endblock breadcrumbs %}
+  {% endblock navigation %}
   <div class="body-wrap">
     {% block script_body %}
     {% endblock script_body %}
